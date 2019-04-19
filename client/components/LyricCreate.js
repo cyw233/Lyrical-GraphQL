@@ -7,6 +7,7 @@ class LyricCreate extends Component {
     super(props);
 
     this.state = { content: '' };
+  }
 
   onSubmit(event) {
     event.preventDefault();
