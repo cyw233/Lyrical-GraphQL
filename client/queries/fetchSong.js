@@ -1,9 +1,8 @@
 import gql from 'graphql-tag';
-import React from 'react';
 
-export defaut gql`
+export default gql`
   query SongQuery($id: ID!) {
-    song(id:$id) {
+    song(id: $id) {
       id
       title
     }
